@@ -11,6 +11,6 @@ mongoose.connect('mongodb://127.0.0.1:27017/nodeServer')
 app.use('/api',()=>{
     console.log(1)
 })
-
+app.use()
 export const viteNodeApp = app
 
